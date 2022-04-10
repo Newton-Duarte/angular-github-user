@@ -1,0 +1,40 @@
+<div class="container">
+  <div class="card">
+    <div class="user-profile">
+      <img [src]="githubUser.avatar_url" [alt]="githubUser.name">
+      <div class="user-info">
+        <a [href]="githubUser.html_url" title="Go to github page" target="_blank">{{ githubUser.name }}</a>
+        <p>{{ githubUser.bio }}</p>
+
+        <div class="user-details">
+          <ul>
+            <li title="Member since">
+              <i>
+                <fa-icon [icon]="faCalendar" style="color: #2196f3"></fa-icon>
+              </i>
+              <span>{{ githubUser.created_at | date }}</span>
+            </li>
+            <li title="Followers">
+              <i>
+                <fa-icon [icon]="faUsers" style="color: #2196f3"></fa-icon>
+              </i>
+              <span>{{ githubUser.followers }}</span>
+            </li>
+            <li title="Public repos">
+              <i>
+                <fa-icon [icon]="faCode" style="color: #2196f3"></fa-icon>
+              </i>
+              <span>{{ githubUser.public_repos }}</span>
+            </li>
+            <li title="Location">
+              <i>
+                <fa-icon [icon]="faMap" style="color: #2196f3"></fa-icon>
+              </i>
+              <span>{{ githubUser.location }}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
