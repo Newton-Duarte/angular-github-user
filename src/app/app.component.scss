@@ -1,0 +1,12 @@
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.error {
+  background-color: rgba($color: #f44336, $alpha: 0.8);
+  color: white;
+  padding: 8px;
+  border-radius: 2px;
+  font-weight: bold;
+}
