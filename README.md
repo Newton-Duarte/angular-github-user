@@ -1,27 +1,19 @@
-# AngularGithub
+# Newton Angular GitHub
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.2.
+This angular app was created to practice angular framework, you can search GitHub users by usernames e.g newton-duarte
 
-## Development server
+## Live Web App
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+You can check out the live demo from this app
 
-## Code scaffolding
+https://newton-angular-github.vercel.app/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Screenshots
 
-## Build
+#### Pets Page
+---
+![Angular GitHub 01](/screenshots/angular-github01.jpg)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+#### Add New Pet
+---
+![Angular GitHub 02](/screenshots/angular-github02.jpg)
